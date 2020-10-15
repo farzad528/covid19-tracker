@@ -95,7 +95,7 @@ const LineGraph = ({ casesType = "cases", ...props }) => {
     fetchData();
   }, [casesType]);
   return (
-    <div className={props.className}>
+    <div className={props.className} style={{backgroundColor:"#26292e", border: "2px solid 4e5157"}}>
       {data?.length > 0 && (
         <Line
           options={options}
