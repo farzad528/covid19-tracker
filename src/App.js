@@ -137,6 +137,7 @@ function App() {
               active={casesType === "recovered"}
               onClick={(e) => setCasesType("recovered")}
               title="Recovered"
+              color="textSecondary"
               cases={prettyPrintStat(countryInfo.todayRecovered)}
               total={prettyPrintStat(countryInfo.recovered)}
             />
