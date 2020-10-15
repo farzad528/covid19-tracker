@@ -102,7 +102,7 @@ function App() {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">FullStackFarzzy</Typography>
+            <Typography variant="h6">FullStackFarzzy 🤓</Typography>
           </Toolbar>
         </AppBar>
       </div>
@@ -111,7 +111,7 @@ function App() {
           <div className="app__header">
             <h1> COVID-19 TRACKER</h1>
             <FormControl className="app__dropdown">
-              <Select
+              <Select style={{backgroundColor:"#26292e", color: "white"}}
                 variant="outlined"
                 value={country}
                 onChange={onCountryChange}
@@ -167,6 +167,7 @@ function App() {
           </CardContent>
         </Card>
       </div>
+      <p className="app__footer"> Sources: CDC, WHO, Disease.sh</p>
     </div>
   );
 }
