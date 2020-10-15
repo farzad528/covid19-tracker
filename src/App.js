@@ -19,6 +19,24 @@ import { sortData, prettyPrintStat } from "./util";
 import LineGraph from "./LineGraph";
 import "leaflet/dist/leaflet.css";
 import MenuIcon from "@material-ui/icons/Menu";
+import { createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: '#4754a3',
+      main: '#092c74',
+      dark: '#000248',
+      contrastText: '#fff',
+    },
+    secondary: {
+      light: '#efefef',
+      main: '#bdbdbd',
+      dark: '#8d8d8d',
+      contrastText: '#000',
+    },
+  },
+});
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -84,7 +102,7 @@ function App() {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">News</Typography>
+            <Typography variant="h6">FullStackFarzzy</Typography>
             <Button color="inherit">Login</Button>
           </Toolbar>
         </AppBar>

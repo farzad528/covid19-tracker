@@ -6,7 +6,7 @@ body {
   background-color: #f5f6fa;
 }
 
-.app {
+.app__content {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
@@ -26,7 +26,6 @@ body {
 .app__ header > h1 {
   color: #fc3cfc;
   font-size: 2rem;
-
 }
 
 .app__stats {
@@ -40,7 +39,6 @@ body {
 }
 
 .app__right {
-  
   display: flex;
   flex-direction: column;
 }
@@ -63,6 +61,3 @@ body {
     flex-direction: column;
   }
 }
-
-
-
