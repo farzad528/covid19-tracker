@@ -21,6 +21,20 @@ body {
   color: white !important;
 }
 
+.MuiMenuItem-root {
+  background-color: #26292e !important;
+  color: white !important;
+  border: none !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: blueviolet !important;
+}
+
+.Mui-selected {
+}
+
+
 .app__header {
   display: flex;
   align-items: center;
