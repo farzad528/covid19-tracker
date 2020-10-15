@@ -122,6 +122,7 @@ function App() {
         />
       </div>
       <Card className="app__right">
+
         <CardContent>
           <h3> Live Cases by Country</h3>
           <Table countries={tableData} />
