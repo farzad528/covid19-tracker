@@ -100,15 +100,21 @@ function App() {
         <AppBar position="static">
           <Toolbar>
             <IconButton edge="start" color="inherit" aria-label="menu">
-              <MenuIcon />
+              🌐
             </IconButton>
-            <Typography variant="h6">FullStackFarzzy 🤓</Typography>
-            <Button className="app__navbar--coffee">
-            <span className="app__navbar--coffee-logo">
-              <img src="https://storage.ko-fi.com/cdn/cup-border.png" className="kofimg" alt="coffee"/>
-            </span>
-              Buy me a Coffee
-            </Button>
+            <Typography variant="h6">FullStackFarzzy</Typography>
+            <a href="https://ko-fi.com/fullstackfarzzy" target="_blank" className="app__navbar--link">
+              <Button className="app__navbar--coffee">
+                <span className="app__navbar--coffee-logo">
+                  <img
+                    src="https://storage.ko-fi.com/cdn/cup-border.png"
+                    className="kofimg"
+                    alt="coffee"
+                  />
+                </span>
+                Buy me a Coffee
+              </Button>
+            </a>
           </Toolbar>
         </AppBar>
       </div>
